@@ -59,6 +59,9 @@ body {
 }
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -79,24 +82,63 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 24px 0 24px 0;
+  /* padding: 24px 0 24px 0; */
 }
 
-.site-nav .link-site {
+.header .container,
+.footer .container {
+  /* background-color: red; */
+  align-items: center;
+}
+
+.site-nav {
+  margin-left: 93px;
+}
+
+.site-nav-list,
+.header-contact,
+.footer-contact {
+  display: flex;
+}
+
+.site-nav-list .link-site {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--secondary-color);
 }
 
-.site-nav .link-site:hover,
-.site-nav .link-site:focus {
+.site-nav-list .link-site:hover,
+.site-nav-list .link-site:focus {
   color: var(--tertiary-color);
 }
 
-.site-nav .link-site.current {
+.site-nav-list .link-site.current {
   color: var(--tertiary-color);
+}
+
+.site-nav-list .item + .item {
+  margin-left: 50px;
+}
+
+/* .site-nav-list .item:not(:last-child) {
+  margin-right: 50px;
+} */
+
+.header-contact {
+  margin-left: auto;
+}
+
+.header-contact .item + .item {
+  margin-left: 40px;
 }
 
 .header-contact .link-mail,
 .header-contact .link-tel {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-color);
 }
 
@@ -126,7 +168,7 @@ body {
 
 .footer {
   background-color: var(--tertiary-bg-color);
-  padding: 60px 0 60px 0;
+  /* padding: 60px 0 60px 0; */
 }
 
 .section {
