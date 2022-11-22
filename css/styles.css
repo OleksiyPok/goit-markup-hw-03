@@ -434,21 +434,3 @@ body {
   font-size: 16px;
   line-height: 1.88;
 }
-
-/*----------------------------------------------*/
-/* dev tools*/
-.section {
-  /* outline: 2px solid tomato; */
-}
-
-.container {
-  /* outline: 2px solid lime; */
-}
-
-.outline-dev-tomato {
-  outline: 4px solid tomato;
-}
-
-.outline-dev-lime {
-  outline: 2px solid lime;
-}
