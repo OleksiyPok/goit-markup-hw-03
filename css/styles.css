@@ -10,6 +10,7 @@
   --quaternary-color-opacity: rgba(255, 255, 255, 0.6);
 
   --primary-border-color: #ececec;
+  --secondary-border-color: #eeeeee;
 
   --primary-button-bg-color: #f5f4fa;
   --secondary-button-bg-color: #2196f3;
@@ -374,10 +375,12 @@ body {
 }
 
 .section.portfolio .link-site-txt {
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--secondary-border-color);
+  border-left: 1px solid var(--secondary-border-color);
+  border-right: 1px solid var(--secondary-border-color);
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
   /* background-color: tomato; */
 }
 
@@ -392,13 +395,11 @@ body {
 /* h3, p */
 .section.portfolio .section-subtitle,
 .section.portfolio .section-text {
-  margin-left: 24px;
   /* background-color: lime; */
 }
 
 /* h3 */
 .section.portfolio .section-subtitle {
-  margin-top: 20px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -406,7 +407,6 @@ body {
 
 /* p */
 .section.portfolio .section-text {
-  margin-bottom: 20px;
   color: var(--primary-color);
   font-size: 16px;
   line-height: 1.88;
